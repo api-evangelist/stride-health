@@ -1,8 +1,25 @@
 aid: stride-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stride-health.png
 name: Stride Health
-description: 'Stride Health is a company surfaced as a portfolio company of dcm-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Stride Health is a benefits platform that helps independent, gig, and part-time
+  workers access portable benefits that stay with the individual regardless of where or how
+  they work. Stride connects people to affordable health, dental, vision, and life insurance,
+  and provides tax tools, mileage/expense tracking, and savings features for the self-employed.
+  The company reports 4.6 million independent workers served, $8+ billion saved on insurance
+  and taxes, and 130+ partner companies. Stride operates a private B2B partner integration
+  (embedded in partner apps such as gig-work platforms) but publishes no public developer API,
+  API documentation, or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/stride-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Insurance
+- Health Insurance
+- Benefits
+- Gig Economy
+- Insurtech
+- Tax
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stride-health-domain-security.yml
 - type: Website
   url: https://www.stridehealth.com/
+- type: Blog
+  url: https://blog.stridehealth.com
+- type: Support
+  url: https://support.stridehealth.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://www.stridehealth.com/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.stridehealth.com/legal/terms-of-use
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
